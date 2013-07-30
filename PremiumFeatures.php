@@ -18,7 +18,7 @@
  * @file
  * @ingroup Extensions
  * @author Lewis Cawte
- * @copyright Copyright © 2012, Lewis Cawte
+ * @copyright Copyright © 2013, Lewis Cawte
  */
 
 if( !defined( 'MEDIAWIKI' ) ) {
@@ -31,7 +31,7 @@ $wgExtensionCredits['specialpage'][] = array(
 	'author'         => 'Lewis Cawte',
 	'descriptionmsg' => 'premfeaturesshop-desc',
 	'url'            => 'https://www.mediawiki.org/wiki/Extension:ShoutWiki_Premium_Features_Shop',
-	'version'		 => '0.5alpha',
+	'version'		 => '0.6',
 );
 
 $dir = dirname(__FILE__) . '/';
