@@ -16,4 +16,8 @@ class SpecialPFShop extends SpecialPage {
 		
 		$out->addWikiMsg( 'premiumfeatures-item-support' );
 	}
+	
+	public function addtoSWSkinShopHeader( $links ) {
+		$links = Linker::link( SpecialPage::getTitleFor( 'PremiumFeaturesShop' ), 'Premium Features' );
+	}
 }

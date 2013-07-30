@@ -39,6 +39,7 @@ $wgAutoloadClasses['SpecialPFShop'] = $dir . 'SpecialPFShop.php';
 $wgSpecialPages['PremiumFeaturesShop'] = 'SpecialPFShop';
 $wgExtensionMessagesFiles['PremiumFeaturesShop'] = $dir . 'PremiumFeaturesShop.i18n.php';
 $wgSpecialPageGroups['PremiumFeaturesShop'] = 'wiki';
+$wgHooks['ShoutWikiShopHeaderItems'][] = 'SpecialPFShop::addtoSWSkinShopHeader';
 
 $wgResourceModules['ext.premiumfeaturesshop'] = array(
 	'styles' => 'premiumfeaturesshop.css',
