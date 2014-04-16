@@ -31,7 +31,7 @@ $wgExtensionCredits['specialpage'][] = array(
 	'author'         => 'Lewis Cawte',
 	'descriptionmsg' => 'premfeaturesshop-desc',
 	'url'            => 'https://www.mediawiki.org/wiki/Extension:ShoutWiki_Premium_Features_Shop',
-	'version'		 => '0.6',
+	'version'	 => '0.6',
 );
 
 $dir = dirname(__FILE__) . '/';
